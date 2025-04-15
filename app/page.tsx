@@ -147,8 +147,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "The food was exceptional and the service was impeccable. The ambiance really made our anniversary dinner special."
-              </p>
+              {"The food was exceptional and the service was impeccable. The ambiance really made our anniversary dinner special."}              </p>
             </div>
             
             {/* Testimonial 2 */}
@@ -163,8 +162,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "As a food enthusiast, I can say that Cafe Perindu offers one of the most authentic culinary experiences in town. Will definitely be back!"
-              </p>
+                {"As a food enthusiast, I can say that Cafe Perindu offers one of the most authentic culinary experiences in town. Will definitely be back!"}              </p>
             </div>
           </div>
         </div>
