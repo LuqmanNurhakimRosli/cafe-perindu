@@ -58,7 +58,7 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-gray-800">A Culinary Journey</h3>
               <p className="text-gray-600 mb-4">
-                Founded in 204, Cafe Perindu has been serving the Kolej Perindu with love and passion. Our chef brings over 20 years of experience, creating dishes that blend traditional recipes with modern techniques.
+                Founded in 2004, Cafe Perindu has been serving the Kolej Perindu with love and passion. Our chef brings over 20 years of experience, creating dishes that blend traditional recipes with modern techniques.
               </p>
               <p className="text-gray-600 mb-6">
                 We source our ingredients locally, supporting farmers and ensuring the freshest produce for our customers. Every dish tells a story of heritage and innovation.
