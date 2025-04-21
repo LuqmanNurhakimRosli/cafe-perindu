@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroImg from "@/public/hero-image.png"
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <img src="/hero-image.png" width={350} />
+        <img src={HeroImg.src} width={350} />
       </section>
     </main>
       

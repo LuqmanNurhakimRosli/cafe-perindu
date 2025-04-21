@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Albert_Sans, Montserrat_Alternates } from "next/font/google";
+
+import LogoDesk from "@/public/printforge-logo.svg";
+import LogoMob from "@/public/printforge-logo-icon.svg";
+
 import "./globals.css";
 import {WebVitals} from "./components/web-vitals";
 
@@ -37,13 +41,13 @@ export default function RootLayout({
             <div className="relative">
               {/* Desktop logo */}
               <img
-                src="/printforge-logo.svg"
+                src= {LogoDesk.src}
                 alt="PrintForge Logo"
                 className="w-[200px] h-auto hidden md:block"
               />
               {/* Mobile logo */}
               <img
-                src="/printforge-logo-icon.svg"
+                src= {LogoMob.src}
                 alt="PrintForge Logo"
                 className="w-[40px] h-auto block md:hidden"
               />
